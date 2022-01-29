@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="bootstrap-accordions-faqs.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        h2 {
+            font-family: Arial, Verdana;
+            font-weight: 800;
+            font-size: 2.5rem;
+            color: #091f2f;
+            text-transform: uppercase;
+        }
+        .accordion-section .panel-default > .panel-heading {
+            border: 0;
+            background: #f4f4f4;
+            padding: 0;
+        }
+        .accordion-section .panel-default .panel-title a {
+            display: block;
+            font-style: italic;
+            font-size: 1.5rem;
+        }
+        .accordion-section .panel-default .panel-title a:after {
+            font-family: 'FontAwesome';
+            font-style: normal;
+            font-size: 3rem;
+            content: "\f106";
+            color: #1f7de2;
+            float: right;
+            margin-top: -12px;
+        }
+        .accordion-section .panel-default .panel-title a.collapsed:after {
+            content: "\f107";
+        }
+        .accordion-section .panel-default .panel-body {
+            font-size: 1.2rem;
+        }
+    </style>
+</head>
+
+<body style="background-color: #F5F8F9;">
+    <section class="accordion-section clearfix mt-3" aria-label="Question Accordions">
+        <div class="container">
+
+            <h3>Frequently Asked Questions </h3>
+            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+
+                <!--  -->
+
+                <div class="panel panel-default">
+                    <div class="panel-heading p-3 mb-3" role="tab" id="heading0">
+                        <h3 class="panel-title">
+                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion"
+                                href="#collapse0" aria-expanded="true" aria-controls="collapse0">
+                                What are the benefits of Solodev CMS?
+                            </a>
+                        </h3>
+                    </div>
+                    <div id="collapse0" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading0">
+                        <div class="panel-body px-3 mb-4">
+                            <p>With Solodev CMS, you and your visitors will benefit from a finely-tuned technology stack
+                                that drives the highest levels of site performance, speed and engagement - and
+                                contributes more to your bottom line. Our users fell in love with:</p>
+                            <ul>
+                                <li>Light speed deployment on the most secure and stable cloud infrastructure available
+                                    on the market.</li>
+                                <li>Scalability – pay for what you need today and add-on options as you grow.</li>
+                                <li>All of the bells and whistles of other enterprise CMS options but without the design
+                                    limitations - this CMS simply lets you realize your creative visions.</li>
+                                <li>Amazing support backed by a team of Solodev pros – here when you need them.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!--  -->
+
+            </div>
+
+        </div>
+    </section>
+
+</body>
+
+</html>

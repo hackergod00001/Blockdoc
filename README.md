@@ -1,6 +1,4 @@
-# Unscript Hackathon 2022 by Fr.CRCE
-- Team: Command Line Warrious
-- Team Id: UNS_4
+
 ## Domain : Blockchain
 ### Problem Statement : Build a user verification system.
 Description : 
